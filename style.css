@@ -33,38 +33,45 @@ nav {
   font-display: block;
 }
 .hero{
-    background:
-    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-    url("./images/banner.jpg");
+
+   background-image: url(./images/banner.jpg);
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
+    width: 100%;
     min-height: 100vh;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin-bottom: 100px;
 }
 .hero-content{
-    width:85%;
-    max-width:1100px;
-    text-align:center;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .banner-font{
-    font-family:"Inter",sans-serif;
-     font-size: clamp(48px, 6vw, 72px);;
-    font-weight:800;
-    line-height:1.05;
-    letter-spacing:-3px;
-    color:white;
+    font-family: "Inter", sans-serif;
+    font-size: clamp(50px, 7vw, 88px);
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.05;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
 }
 .banner-text{
-    color:#d6d6d6;
-    font-size:24px;
-    width:70%;
-    margin:30px auto;
-    line-height:1.6;
+    color: #d6d6d6;
+    font-size: 22px;
+    max-width: 750px;
+    margin: 0 auto 45px;
+    line-height: 1.6;
+    
+
+}
+section div button{
+margin-top: 150px;
 }
